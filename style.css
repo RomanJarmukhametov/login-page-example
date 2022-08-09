@@ -217,5 +217,8 @@ input[type="submit"]:active {
     .flex-container {
         padding-right: 8%;
     }
+    .container {
+        padding: 1rem;
+    }
 
 }
