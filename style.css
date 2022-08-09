@@ -58,7 +58,7 @@ input[type="submit"] {
     width: 100%;
     height: 2.5rem;
     background: #1890FF;
-    border-radius: .125rem;
+    border-radius: 2px;
     padding: .5rem 1rem;
     border: none;
     color: #FFFFFF;
@@ -161,7 +161,7 @@ input[type="submit"]:active {
     height: 2.5rem;
     background: #FFFFFF;
     border: .0625rem solid #D9D9D9;
-    border-radius: .125rem;
+    border-radius: 2px;
     padding: .5rem 1rem;
     color: #262626;
     font-size: 1rem;
