@@ -23,6 +23,24 @@ h1 {
     font-weight: 600;
 }
 
+a {
+    text-decoration: none;
+    color: #1890FF;
+}
+
+a:hover {
+    color: #40A9FF;
+}
+
+a:active {
+    color: #096DD9;
+}
+
+p {
+    font-size: 1rem;
+    color: #262626;
+}
+
 i {
     padding-left: .5rem;
     padding-right: .5rem;
@@ -175,6 +193,16 @@ input[type="submit"]:active {
 .secondary_button:active {
     border: .0625rem solid #096DD9;
     color: #096DD9;
+}
+
+.noaccount {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 0.5rem;
 }
 
 @media only screen and (max-width: 1281px) {
